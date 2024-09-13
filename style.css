@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #64cde2;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #07116d;
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #414040;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section.hobby {
+    background-color: #0256af;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+section.hobby h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hobby-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.hobby-content p {
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.hobby-content img {
+    width: 25%;
+    height: auto;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #292929;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+section.project {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    width: 80%;
+}
+
+section.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-content p {
+    width: 70%;
+    text-align: left;
+}
+
+.project-content img {
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.intro {
+    background-color: #003399;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.intro h2 {
+    font-size: 28px;
+}
+
+.intro img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 40px;
+    font-family: 'Georgia', serif;
+}
+
